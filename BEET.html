@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="BEET.css">
+    <meta charset="UTF-8">
+    <title>CMRTC CAFETERIA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      <form action="/suc.html" name="myforms" onsubmit="return validateform()" method = "post">
+        <h1>CMRTC CAFETERIA</h1>
+        <div class="title">Login</div>
+        <div class="input-box underline" id="email">
+          <input type="email" name="email" placeholder="   Enter Your CMRTC mail" pattern="[a-z0-9._%+-]+@cmrtc.ac.in" required>
+
+          <div class="underline"></div>
+        </div>
+        <div class="input-box" id="password">
+          <input type="password" name="password" placeholder="   Enter Your Password" required>
+          <div class="underline"></div>
+        </div>
+        <div class="input-box button" id="continue">
+          <input type="submit" name="continue" value="Continue">
+        </div>
+      </form>
+    </div>
+    <script src="basics.js"></script>
+  </body>
+</html>
